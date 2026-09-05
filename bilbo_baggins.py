@@ -17,7 +17,8 @@ class Frodo:
             "pooping_time": self.pooping_time
         }
 
-frodo = Frodo()
-frodo.to_eat()
-frodo.to_poop()
-print(frodo.statistics())
+if __name__ == '__main__':
+    frodo = Frodo()
+    frodo.to_eat()
+    frodo.to_poop()
+    print(frodo.statistics())
